@@ -22,8 +22,8 @@
 # 订阅链接
   * 方法一: 🆕点击一键订阅(推荐，安装`BoxJs`后点击导入)
     * 完整版: [🍿️ DualSubs](http://boxjs.com/#/sub/add/https%3A%2F%2Fgithub.com%2FDualSubs%2FBoxJs%2Fraw%2Fmain%2FDualSubs.boxjs.json "🍿️ DualSubs")
-    * 仅YouTube: [🍿️ DualSubs: ▶ YouTube](http://boxjs.com/#/sub/add/https%3A%2F%2Fgithub.com%2FDualSubs%2FBoxJs%2Fraw%2Fmain%2FDualSubs.YouTube.boxjs.json "🍿️ DualSubs: ▶ YouTube")
+    * 仅`YouTube`配置面板: [🍿️ DualSubs: ▶ YouTube](http://boxjs.com/#/sub/add/https%3A%2F%2Fgithub.com%2FDualSubs%2FBoxJs%2Fraw%2Fmain%2FDualSubs.YouTube.boxjs.json "🍿️ DualSubs: ▶ YouTube")
   * 方法二: 复制粘贴导入(传统，安装`BoxJs`后复制导入)
     * 浏览器访问[BoxJs.com](http://boxjs.com)，在[`订阅`](http://boxjs.com/#/sub)页面点击`+`复制粘贴添加本项目订阅链接
     * 完整版: [DualSubs.boxjs.json](../../raw/main/DualSubs.boxjs.json "🍿️ DualSubs")
-    * 仅YouTube: [DualSubs.boxjs.json](../../raw/main/DualSubs.YouTube.boxjs.json "🍿️ DualSubs: ▶ YouTube")
+    * 仅`YouTube`配置面板: [DualSubs.YouTube.boxjs.json](../../raw/main/DualSubs.YouTube.boxjs.json "🍿️ DualSubs: ▶ YouTube")
