@@ -10,7 +10,7 @@
 			"id": "DualSubs.YouTube",
 			"name": "🍿️ DualSubs: ▶ YouTube",
 			"descs_html": [
-				"请参照<a href=\"https://github.com/DualSubs/DualSubs-YouTube\">DualSubs-YouTube</a>的使用说明进行配置",
+				"请参照<a href=\"https://github.com/DualSubs/YouTube/wiki/🍿-DualSubs:-▶-YouTube\">🍿️ DualSubs: ▶ YouTube</a>的使用说明进行配置",
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
 			],
 			"keys": [
@@ -137,10 +137,10 @@
 				}
 			],
 			"author": "@DualSubs",
-			"repo": "https://github.com/DualSubs/DualSubs-YouTube/tree/main",
+			"repo": "https://github.com/DualSubs/YouTube/tree/main",
 			"icons": [
-				"https://github.com/DualSubs/DualSubs-YouTube/raw/main/database/icon.png",
-				"https://github.com/DualSubs/DualSubs-YouTube/raw/main/database/icon.png"
+				"https://github.com/DualSubs/YouTube/raw/main/database/icon.png",
+				"https://github.com/DualSubs/YouTube/raw/main/database/icon.png"
 			]
 		}
 	]
