@@ -241,24 +241,48 @@
 			],
 			"settings": [
 				{
-					"id": "@DualSubs.Universal.Settings.Official.Tolerance",
-					"name": "官方字幕: 时间戳公差",
-					"val": 1000,
-					"type": "number",
-					"placeholder": "1000",
-					"desc": "单位：毫秒(ms)，正整数，字幕时间戳匹配时容许的误差范围，不懂就别动"
-				},
-				{
 					"id": "@DualSubs.Universal.Settings.Official.CacheSize",
 					"name": "官方字幕: 播放记录缓存数量",
 					"val": 100,
 					"type": "number",
 					"placeholder": "100",
 					"desc": "此选项决定同网关、同平台、同时处理和播放的数量, 建议设置此数值不小于播放设备数"
+				},
+				{
+					"id": "@DualSubs.Universal.Settings.Official.Position",
+					"name": "官方字幕: 新增字幕位置",
+					"val": "Forward",
+					"type": "radios",
+					"items": [
+						{
+							"key": "Forward",
+							"label": "第二行"
+						},
+						{
+							"key": "Reverse",
+							"label": "第一行"
+						}
+					],
+					"desc": "新增字幕的位置"
+				},
+				{
+					"id": "@DualSubs.Universal.Settings.Official.Offset",
+					"name": "官方字幕: 时间偏移量",
+					"val": 0,
+					"type": "number",
+					"placeholder": "0",
+					"desc": "单位：毫秒(ms)，正负整数"
+				},
+				{
+					"id": "@DualSubs.Universal.Settings.Official.Tolerance",
+					"name": "官方字幕: 时间戳公差",
+					"val": 1000,
+					"type": "number",
+					"placeholder": "1000",
+					"desc": "单位：毫秒(ms)，正整数，字幕时间戳匹配时容许的误差范围，不懂就别动"
 				}
 			],
 			"author": "@DualSubs",
-			"repo": "https://github.com/DualSubs/DualSubs/tree/beta",
 			"icons": [
 				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png",
 				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png"
@@ -284,10 +308,6 @@
 					"desc": "请选择要替换的字幕类型，会为不兼容的播放器替换为此字幕类型",
 					"items": [
 						{
-							"key": "Official",
-							"label": "官方"
-						},
-						{
 							"key": "Baidu",
 							"label": "百度翻译"
 						},
@@ -322,24 +342,19 @@
 						{
 							"key": "DeepL",
 							"label": "DeepL API"
-						},
-						{
-							"key": "External",
-							"label": "外挂字幕"
 						}
 					]
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Translate.Types",
 					"name": "翻译字幕: 字幕选项",
-					"val": "Official",
+					"val": [
+						"Google",
+						"Bing"
+					],
 					"type": "checkboxes",
 					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
 					"items": [
-						{
-							"key": "Official",
-							"label": "官方"
-						},
 						{
 							"key": "Baidu",
 							"label": "百度翻译"
@@ -375,10 +390,6 @@
 						{
 							"key": "DeepL",
 							"label": "DeepL API"
-						},
-						{
-							"key": "External",
-							"label": "外挂字幕"
 						}
 					]
 				},
@@ -456,7 +467,6 @@
 				}
 			],
 			"author": "@DualSubs",
-			"repo": "https://github.com/DualSubs/DualSubs/tree/beta",
 			"icons": [
 				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Server.png",
 				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
@@ -524,7 +534,6 @@
 				}
 			],
 			"author": "@DualSubs",
-			"repo": "https://github.com/DualSubs/DualSubs/tree/beta",
 			"icons": [
 				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Server.png",
 				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
@@ -643,7 +652,6 @@
 				}
 			],
 			"author": "@DualSubs",
-			"repo": "https://github.com/DualSubs/DualSubs/tree/beta",
 			"icons": [
 				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Unlock.png",
 				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png"
