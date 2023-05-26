@@ -207,15 +207,17 @@
 					"desc": "是否启用此平台修改功能"
 				},
 				{
-					"id": "@DualSubs.YouTube.Settings.Type",
-					"name": "字幕类型",
-					"val": "Google",
-					"type": "selects",
-					"desc": "请选择要替换的字幕类型，会为不兼容的播放器替换为此字幕类型",
+					"id": "@DualSubs.Universal.Settings.Types",
+					"name": "字幕选项",
+					"val": [
+						"Official"
+					],
+					"type": "checkboxes",
+					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
 					"items": [
 						{
-							"key": "Google",
-							"label": "Google Translate"
+							"key": "Official",
+							"label": "官方字幕"
 						}
 					]
 				}
