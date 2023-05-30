@@ -636,7 +636,7 @@
 					"desc": "验证方式二选一"
 				},
 				{
-					"id": "@DualSubs.Verify.Settings.Azure.Auth",
+					"id": "@DualSubs.Universal.Settings.API.Azure.Auth",
 					"name": "[Microsoft Azure] Translator 认证密钥",
 					"val": "",
 					"type": "text",
