@@ -175,12 +175,10 @@
 					"desc": "是否启用此平台修改功能"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.Types",
+					"id": "@DualSubs.YouTube.Settings.Type",
 					"name": "字幕选项",
-					"val": [
-						"Official"
-					],
-					"type": "checkboxes",
+					"val": "Official",
+					"type": "radios",
 					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
 					"items": [
 						{
@@ -205,14 +203,14 @@
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
 			],
 			"keys": [
-				"@DualSubs.Universal.Settings.Official",
-				"@DualSubs.Universal.Caches.Playlists.Master",
-				"@DualSubs.Universal.Caches.Playlists.Subtitle",
-				"@DualSubs.Universal.Caches.Subtitles"
+				"@DualSubs.Official.Settings",
+				"@DualSubs.Official.Caches.Playlists.Master",
+				"@DualSubs.Official.Caches.Playlists.Subtitle",
+				"@DualSubs.Official.Caches.Subtitles"
 			],
 			"settings": [
 				{
-					"id": "@DualSubs.Universal.Settings.Official.CacheSize",
+					"id": "@DualSubs.Official.Settings.CacheSize",
 					"name": "官方字幕: 播放记录缓存数量",
 					"val": 100,
 					"type": "number",
@@ -220,7 +218,7 @@
 					"desc": "此选项决定同网关、同平台、同时处理和播放的数量, 建议设置此数值不小于播放设备数"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.Official.Position",
+					"id": "@DualSubs.Official.Settings.Position",
 					"name": "官方字幕: 新增字幕位置",
 					"val": "Forward",
 					"type": "radios",
@@ -237,7 +235,7 @@
 					"desc": "新增字幕的位置"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.Official.Offset",
+					"id": "@DualSubs.Official.Settings.Offset",
 					"name": "官方字幕: 时间偏移量",
 					"val": 0,
 					"type": "number",
@@ -245,7 +243,7 @@
 					"desc": "单位：毫秒(ms)，正负整数"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.Official.Tolerance",
+					"id": "@DualSubs.Official.Settings.Tolerance",
 					"name": "官方字幕: 时间戳公差",
 					"val": 1000,
 					"type": "number",
@@ -267,15 +265,15 @@
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
 			],
 			"keys": [
-				"@DualSubs.Universal.Settings.Translate",
-				"@DualSubs.Universal.Caches.Subtitles"
+				"@DualSubs.Translate.Settings",
+				"@DualSubs.Translate.Caches.Subtitles"
 			],
 			"settings": [
 				{
-					"id": "@DualSubs.Universal.Settings.Translate.Type",
+					"id": "@DualSubs.Translate.Settings.Type",
 					"name": "翻译字幕: 翻译API",
 					"val": "Google",
-					"type": "selects",
+					"type": "radios",
 					"desc": "请选择字幕翻译功能所使用的翻译API",
 					"items": [
 						{
@@ -297,14 +295,14 @@
 					]
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.Translate.ShowOnly",
+					"id": "@DualSubs.Translate.Settings.ShowOnly",
 					"name": "翻译字幕: 只显示翻译字幕",
 					"val": false,
 					"type": "boolean",
 					"desc": "开启后仅显示翻译字幕，不做字幕合并操作"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.Translate.Position",
+					"id": "@DualSubs.Translate.Settings.Position",
 					"name": "翻译字幕: 新增字幕位置",
 					"val": "Forward",
 					"type": "radios",
@@ -383,12 +381,12 @@
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
 			],
 			"keys": [
-				"@DualSubs.Universal.Settings.External",
-				"@DualSubs.Universal.Caches.Subtitles"
+				"@DualSubs.External.Settings",
+				"@DualSubs.External.Caches.Subtitles"
 			],
 			"settings": [
 				{
-					"id": "@DualSubs.Universal.Settings.External.URL",
+					"id": "@DualSubs.External.Settings.URL",
 					"name": "外挂字幕: URL",
 					"val": null,
 					"type": "text",
@@ -396,14 +394,14 @@
 					"desc": "兼容WebVTT和SRT格式字幕"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.External.ShowOnly",
+					"id": "@DualSubs.External.Settings.ShowOnly",
 					"name": "外挂字幕: 只显示外挂字幕",
 					"val": false,
 					"type": "boolean",
 					"desc": "开启后仅显示外挂字幕，不做字幕合并操作"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.External.Position",
+					"id": "@DualSubs.External.Settings.Position",
 					"name": "外挂字幕: 新增字幕位置",
 					"val": "Forward",
 					"type": "radios",
@@ -420,7 +418,7 @@
 					"desc": "新增字幕的位置"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.External.Offset",
+					"id": "@DualSubs.External.Settings.Offset",
 					"name": "外挂字幕: 时间偏移量",
 					"val": 0,
 					"type": "number",
@@ -428,7 +426,7 @@
 					"desc": "单位：毫秒(ms)，正负整数"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.External.Tolerance",
+					"id": "@DualSubs.External.Settings.Tolerance",
 					"name": "外挂合成: 时间戳公差",
 					"val": 1000,
 					"type": "number",
@@ -450,11 +448,11 @@
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
 			],
 			"keys": [
-				"@DualSubs.Universal.Settings.API"
+				"@DualSubs.API.Settings"
 			],
 			"settings": [
 				{
-					"id": "@DualSubs.Universal.Settings.API.GoogleCloud.Mode",
+					"id": "@DualSubs.API.Settings.GoogleCloud.Mode",
 					"name": "[Google Cloud] Translation API 认证方式",
 					"val": "Key",
 					"type": "radios",
@@ -471,7 +469,7 @@
 					"desc": "验证方式二选一"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.API.GoogleCloud.Auth",
+					"id": "@DualSubs.API.Settings.GoogleCloud.Auth",
 					"name": "[Google Cloud] Translation API 认证密钥",
 					"val": "",
 					"type": "text",
@@ -479,7 +477,7 @@
 					"desc": "未提供时不会启用此类型字幕"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.API.Azure.Version",
+					"id": "@DualSubs.API.Settings.Azure.Version",
 					"name": "[Microsoft Azure] Translator 版本",
 					"val": "Azure",
 					"type": "radios",
@@ -496,7 +494,7 @@
 					"desc": "版本二选一"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.API.Azure.Region",
+					"id": "@DualSubs.API.Settings.Azure.Region",
 					"name": "[Microsoft Azure] Translator 区域代码",
 					"val": "global",
 					"type": "text",
@@ -504,7 +502,7 @@
 					"desc": "如果开通Microsoft Azure Translator时没有选择全球global，则需要填写开通的地区代码，如chinanorth, chinaeast2等"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.API.Azure.Mode",
+					"id": "@DualSubs.API.Settings.Azure.Mode",
 					"name": "[Microsoft Azure] Translator 认证方式",
 					"val": "Key",
 					"type": "radios",
@@ -521,7 +519,7 @@
 					"desc": "验证方式二选一"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.API.Azure.Auth",
+					"id": "@DualSubs.API.Settings.Azure.Auth",
 					"name": "[Microsoft Azure] Translator 认证密钥",
 					"val": "",
 					"type": "text",
@@ -529,7 +527,7 @@
 					"desc": "未提供时不会启用此类型字幕"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.API.DeepL.Version",
+					"id": "@DualSubs.API.Settings.DeepL.Version",
 					"name": "[DeepL] API 模式",
 					"val": "Free",
 					"type": "radios",
@@ -546,7 +544,7 @@
 					"desc": "模式二选一"
 				},
 				{
-					"id": "@DualSubs.Universal.Settings.API.DeepL.Auth",
+					"id": "@DualSubs.API.Settings.DeepL.Auth",
 					"name": "[DeepL] API 认证密钥",
 					"val": "",
 					"type": "text",
