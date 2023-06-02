@@ -206,7 +206,8 @@
 			],
 			"keys": [
 				"@DualSubs.Universal.Settings.Official",
-				"@DualSubs.Universal.Caches.Playlists",
+				"@DualSubs.Universal.Caches.Playlists.Master",
+				"@DualSubs.Universal.Caches.Playlists.Subtitle",
 				"@DualSubs.Universal.Caches.Subtitles"
 			],
 			"settings": [
@@ -267,7 +268,7 @@
 			],
 			"keys": [
 				"@DualSubs.Universal.Settings.Translate",
-				"@DualSubs.Universal.Caches.Translate"
+				"@DualSubs.Universal.Caches.Subtitles"
 			],
 			"settings": [
 				{
@@ -383,7 +384,7 @@
 			],
 			"keys": [
 				"@DualSubs.Universal.Settings.External",
-				"@DualSubs.Universal.Caches.External"
+				"@DualSubs.Universal.Caches.Subtitles"
 			],
 			"settings": [
 				{
