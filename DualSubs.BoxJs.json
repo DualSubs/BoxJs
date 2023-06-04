@@ -51,7 +51,7 @@
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[0]",
-					"name": "官方字幕: 首选语言",
+					"name": "首选语言",
 					"val": "ZH",
 					"type": "selects",
 					"items": [
@@ -100,7 +100,7 @@
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[1]",
-					"name": "官方字幕: 第二语言",
+					"name": "第二语言",
 					"val": "EN",
 					"type": "selects",
 					"items": [
@@ -186,6 +186,63 @@
 							"label": "官方字幕"
 						}
 					]
+				},
+				{
+					"id": "@DualSubs.YouTube.Settings.Language",
+					"name": "字幕语言",
+					"val": "AUTO",
+					"type": "selects",
+					"items": [
+						{
+							"key": "OFF",
+							"label": "关闭（不自动添加翻译语言）"
+						},
+						{
+							"key": "AUTO",
+							"label": "自动（跟随上一次的翻译语言选择）"
+						},
+						{
+							"key": "ZH",
+							"label": "中文（自动）"
+						},
+						{
+							"key": "ZH-HANS",
+							"label": "中文（简体）"
+						},
+						{
+							"key": "ZH-HK",
+							"label": "中文（香港）"
+						},
+						{
+							"key": "ZH-HANT",
+							"label": "中文（繁体）"
+						},
+						{
+							"key": "EN",
+							"label": "英语（自动）"
+						},
+						{
+							"key": "ES",
+							"label": "西班牙语（自动）"
+						},
+						{
+							"key": "JA",
+							"label": "日文"
+						},
+						{
+							"key": "KO",
+							"label": "韩文"
+						},
+						{
+							"key": "DE",
+							"label": "德语"
+						},
+						{
+							"key": "FR",
+							"label": "法语"
+						}
+					],
+					"desc": "双语字幕的翻译语言"
 				}
 			],
 			"author": "@DualSubs",
@@ -253,8 +310,8 @@
 			],
 			"author": "@DualSubs",
 			"icons": [
-				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png",
-				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png"
+				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png",
+				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DomesticMedia.png"
 			]
 		},
 		{
@@ -369,8 +426,8 @@
 			],
 			"author": "@DualSubs",
 			"icons": [
-				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Server.png",
-				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
+				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png",
+				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png"
 			]
 		},
 		{
@@ -436,8 +493,8 @@
 			],
 			"author": "@DualSubs",
 			"icons": [
-				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Server.png",
-				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png"
+				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Media.png",
+				"https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Media.png"
 			]
 		},
 		{
