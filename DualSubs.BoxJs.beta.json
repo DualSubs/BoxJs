@@ -291,6 +291,13 @@
 						}
 					],
 					"desc": "双语字幕的翻译语言"
+				},
+				{
+					"id": "@DualSubs.YouTube.Settings.ShowOnly",
+					"name": "官方字幕: 只显示翻译字幕",
+					"val": false,
+					"type": "boolean",
+					"desc": "开启后仅显示翻译字幕，不做字幕合并操作"
 				}
 			],
 			"author": "@DualSubs",
