@@ -668,10 +668,14 @@
 						},
 						{
 							"key": "AzureCN",
-							"label": "中国版"
+							"label": "中国世纪互联版"
+						},
+						{
+							"key": "AzureUS",
+							"label": "美国政府版"
 						}
 					],
-					"desc": "版本二选一"
+					"desc": "选择版本"
 				},
 				{
 					"id": "@DualSubs.API.Settings.Azure.Region",
