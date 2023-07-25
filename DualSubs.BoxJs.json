@@ -51,7 +51,7 @@
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[0]",
-					"name": "首选语言",
+					"name": "主字幕语言（目标语言）",
 					"val": "ZH",
 					"type": "selects",
 					"items": [
@@ -96,11 +96,11 @@
 							"label": "法语"
 						}
 					],
-					"desc": "当“首选语言”的字幕存在时，将生成“首选语言+第二语言”的字幕选项"
+					"desc": "当“主语言”字幕存在时，将生成“主语言（官方）+副语言（官方或翻译）”字幕或字幕选项"
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[1]",
-					"name": "第二语言",
+					"name": "副字幕语言（源语言）",
 					"val": "EN",
 					"type": "selects",
 					"items": [
@@ -145,7 +145,7 @@
 							"label": "法语"
 						}
 					],
-					"desc": "当“首选语言”的字幕不存在时，将生成“第二语言+首选语言”的字幕选项"
+					"desc": "当“主语言”字幕不存在时，将生成“主语言（翻译）+副语言（官方）”字幕或字幕选项"
 				}
 			],
 			"author": "@DualSubs",
@@ -189,7 +189,7 @@
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.Language",
-					"name": "字幕语言",
+					"name": "主字幕语言（目标语言）",
 					"val": "AUTO",
 					"type": "selects",
 					"items": [
@@ -199,7 +199,7 @@
 						},
 						{
 							"key": "AUTO",
-							"label": "自动（跟随上一次的翻译语言选择）"
+							"label": "自动（播放器的“自动翻译”语言选择）"
 						},
 						{
 							"key": "ZH",
@@ -246,10 +246,10 @@
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.ShowOnly",
-					"name": "官方字幕: 只显示翻译字幕",
+					"name": "官方字幕: 只显示“自动翻译”字幕",
 					"val": false,
 					"type": "boolean",
-					"desc": "开启后仅显示翻译字幕，不做字幕合并操作"
+					"desc": "开启后仅显示“自动翻译”字幕，不做字幕合并操作"
 				}
 			],
 			"author": "@DualSubs",
@@ -257,6 +257,144 @@
 			"icons": [
 				"https://github.com/DualSubs/YouTube/raw/main/database/icon.png",
 				"https://github.com/DualSubs/YouTube/raw/main/database/icon.png"
+			]
+		},
+		{
+			"id": "DualSubs.Netflix.beta",
+			"name": "🍿️ DualSubs: 🇳 Netflix β",
+			"descs_html": [
+				"请参照<a href=\"https://github.com/DualSubs/Netflix/wiki/🍿-DualSubs:-🎦-Netflix\">🍿 DualSubs: 🇳 Netflix</a>的使用说明进行配置",
+				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
+			],
+			"keys": [
+				"@DualSubs.Netflix.Settings",
+				"@DualSubs.Netflix.Caches"
+			],
+			"settings": [
+				{
+					"id": "@DualSubs.Netflix.Settings.Switch",
+					"name": "功能开关",
+					"val": true,
+					"type": "boolean",
+					"desc": "是否启用此平台修改功能"
+				},
+				{
+					"id": "@DualSubs.Netflix.Settings.Type",
+					"name": "字幕选项",
+					"val": "Translate",
+					"type": "radios",
+					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
+					"items": [
+						{
+							"key": "Translate",
+							"label": "翻译字幕"
+						}
+					]
+				},
+				{
+					"id": "@DualSubs.Netflix.Settings.Languages[0]",
+					"name": "主字幕语言（目标语言）",
+					"val": "ZH",
+					"type": "selects",
+					"items": [
+						{
+							"key": "ZH",
+							"label": "中文（自动）"
+						},
+						{
+							"key": "ZH-HANS",
+							"label": "中文（简体）"
+						},
+						{
+							"key": "ZH-HK",
+							"label": "中文（香港）"
+						},
+						{
+							"key": "ZH-HANT",
+							"label": "中文（繁体）"
+						},
+						{
+							"key": "EN",
+							"label": "英语（自动）"
+						},
+						{
+							"key": "ES",
+							"label": "西班牙语（自动）"
+						},
+						{
+							"key": "JA",
+							"label": "日文"
+						},
+						{
+							"key": "KO",
+							"label": "韩文"
+						},
+						{
+							"key": "DE",
+							"label": "德语"
+						},
+						{
+							"key": "FR",
+							"label": "法语"
+						}
+					],
+					"desc": "当“主语言”字幕存在时，将生成“主语言（官方）+副语言（官方或翻译）”字幕或字幕选项"
+				},
+				{
+					"id": "@DualSubs.Netflix.Settings.Languages[1]",
+					"name": "副字幕语言（源语言）",
+					"val": "EN",
+					"type": "selects",
+					"items": [
+						{
+							"key": "ZH",
+							"label": "中文（自动）"
+						},
+						{
+							"key": "ZH-HANS",
+							"label": "中文（简体）"
+						},
+						{
+							"key": "ZH-HK",
+							"label": "中文（香港）"
+						},
+						{
+							"key": "ZH-HANT",
+							"label": "中文（繁体）"
+						},
+						{
+							"key": "EN",
+							"label": "英语（自动）"
+						},
+						{
+							"key": "ES",
+							"label": "西班牙语（自动）"
+						},
+						{
+							"key": "JA",
+							"label": "日文"
+						},
+						{
+							"key": "KO",
+							"label": "韩文"
+						},
+						{
+							"key": "DE",
+							"label": "德语"
+						},
+						{
+							"key": "FR",
+							"label": "法语"
+						}
+					],
+					"desc": "当“主语言”字幕不存在时，将生成“主语言（翻译）+副语言（官方）”字幕或字幕选项"
+				}
+			],
+			"author": "@DualSubs",
+			"repo": "https://github.com/DualSubs/Netflix",
+			"icons": [
+				"https://github.com/DualSubs/Netflix/raw/main/database/icon.png",
+				"https://github.com/DualSubs/Netflix/raw/main/database/icon.png"
 			]
 		},
 		{
@@ -334,7 +472,7 @@
 			],
 			"settings": [
 				{
-					"id": "@DualSubs.Translate.Settings.Type",
+					"id": "@DualSubs.Translate.Settings.Vendor",
 					"name": "翻译字幕: 翻译API",
 					"val": "Google",
 					"type": "radios",
@@ -418,9 +556,9 @@
 				{
 					"id": "@DualSubs.Universal.Settings.Translate.Interval",
 					"name": "翻译器: 重试间隔时长",
-					"val": "100",
+					"val": "1000",
 					"type": "number",
-					"placeholder": "100",
+					"placeholder": "1000",
 					"desc": "单位：毫秒(ms)，正整数"
 				},
 				{
@@ -516,6 +654,23 @@
 			],
 			"settings": [
 				{
+					"id": "@DualSubs.API.Settings.GoogleCloud.Version",
+					"name": "[Google Cloud] Translation API 版本",
+					"val": "v2",
+					"type": "radios",
+					"items": [
+						{
+							"key": "v2",
+							"label": "V2版"
+						},
+						{
+							"key": "v3",
+							"label": "V3版（暂不支持，别选）"
+						}
+					],
+					"desc": "选择版本"
+				},
+				{
 					"id": "@DualSubs.API.Settings.GoogleCloud.Mode",
 					"name": "[Google Cloud] Translation API 认证方式",
 					"val": "Key",
@@ -527,7 +682,7 @@
 						},
 						{
 							"key": "Token",
-							"label": "令牌"
+							"label": "令牌（暂不支持，别选）"
 						}
 					],
 					"desc": "验证方式二选一"
@@ -542,7 +697,7 @@
 				},
 				{
 					"id": "@DualSubs.API.Settings.Azure.Version",
-					"name": "[Microsoft Azure] Translator 版本",
+					"name": "[Microsoft Azure] Translator API 版本",
 					"val": "Azure",
 					"type": "radios",
 					"items": [
@@ -581,7 +736,7 @@
 						},
 						{
 							"key": "Token",
-							"label": "令牌"
+							"label": "令牌（暂不支持，别选）"
 						}
 					],
 					"desc": "验证方式二选一"
