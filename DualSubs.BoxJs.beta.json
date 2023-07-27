@@ -267,17 +267,17 @@
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.AutoCC",
-					"name": "官方字幕: 自动启用“自动翻译”字幕",
+					"name": "自动显示翻译字幕",
 					"val": true,
 					"type": "boolean",
-					"desc": "开启后总是启用“自动翻译”字幕"
+					"desc": "开启后总是显示翻译字幕"
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.ShowOnly",
 					"name": "官方字幕: 只显示“自动翻译”字幕",
 					"val": false,
 					"type": "boolean",
-					"desc": "开启后仅显示“自动翻译”字幕，不做字幕合并操作"
+					"desc": "开启后仅显示“自动翻译”字幕，不显示源语言字幕"
 				}
 			],
 			"author": "@DualSubs",
