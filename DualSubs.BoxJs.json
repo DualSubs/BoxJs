@@ -240,8 +240,8 @@
 			]
 		},
 		{
-			"id": "DualSubs.Netflix.beta",
-			"name": "🍿️ DualSubs: 🇳 Netflix β",
+			"id": "DualSubs.Netflix",
+			"name": "🍿️ DualSubs: 🇳 Netflix",
 			"descs_html": [
 				"请参照<a href=\"https://github.com/DualSubs/Netflix/wiki/🍿-DualSubs:-🎦-Netflix\">🍿 DualSubs: 🇳 Netflix</a>的使用说明进行配置",
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
