@@ -2,7 +2,7 @@
 	"id": "DualSubs.beta.sub",
 	"name": "🍿️ DualSubs β",
 	"author": "@DualSubs",
-	"description": "流媒体平台字幕增强及双语模块",
+	"description": "流媒体平台字幕增强及双语模块，适用于 0.8 版及以上版本",
 	"icon": "https://avatars.githubusercontent.com/u/100578089?&v=4",
 	"repo": "https://github.com/DualSubs",
 	"apps": [
@@ -748,7 +748,7 @@
 				},
 				{
 					"id": "@DualSubs.External.Settings.Position",
-					"name": "翻译字幕: 主语言（源语言）字幕位置",
+					"name": "外挂字幕: 主语言（源语言）字幕位置",
 					"val": "Forward",
 					"type": "radios",
 					"items": [
