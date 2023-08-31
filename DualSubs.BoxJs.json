@@ -178,7 +178,7 @@
 					"id": "@DualSubs.YouTube.Settings.Type",
 					"name": "字幕选项",
 					"val": "Official",
-					"type": "radios",
+					"type": "selects",
 					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
 					"items": [
 						{
@@ -262,7 +262,7 @@
 					"id": "@DualSubs.Netflix.Settings.Type",
 					"name": "字幕选项",
 					"val": "Translate",
-					"type": "radios",
+					"type": "selects",
 					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
 					"items": [
 						{
@@ -403,7 +403,7 @@
 					"id": "@DualSubs.Official.Settings.Position",
 					"name": "官方字幕: 主语言（源语言）字幕位置",
 					"val": "Reverse",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "Forward",
@@ -455,7 +455,7 @@
 					"id": "@DualSubs.Translate.Settings.Vendor",
 					"name": "翻译字幕: 翻译API",
 					"val": "Google",
-					"type": "radios",
+					"type": "selects",
 					"desc": "请选择字幕翻译功能所使用的翻译API",
 					"items": [
 						{
@@ -487,7 +487,7 @@
 					"id": "@DualSubs.Translate.Settings.Position",
 					"name": "翻译字幕: 主语言（源语言）字幕位置",
 					"val": "Forward",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "Forward",
@@ -512,7 +512,7 @@
 					"id": "@DualSubs.Universal.Settings.Translate.Method",
 					"name": "翻译器: 翻译方式",
 					"val": "Part",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "Part",
@@ -586,7 +586,7 @@
 					"id": "@DualSubs.External.Settings.Position",
 					"name": "外挂字幕: 主语言（源语言）字幕位置",
 					"val": "Forward",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "Forward",
@@ -637,7 +637,7 @@
 					"id": "@DualSubs.API.Settings.GoogleCloud.Version",
 					"name": "[Google Cloud] Translation API 版本",
 					"val": "v2",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "v2",
@@ -654,7 +654,7 @@
 					"id": "@DualSubs.API.Settings.GoogleCloud.Mode",
 					"name": "[Google Cloud] Translation API 认证方式",
 					"val": "Key",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "Key",
@@ -679,7 +679,7 @@
 					"id": "@DualSubs.API.Settings.Azure.Version",
 					"name": "[Microsoft Azure] Translator API 版本",
 					"val": "Azure",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "Azure",
@@ -708,7 +708,7 @@
 					"id": "@DualSubs.API.Settings.Azure.Mode",
 					"name": "[Microsoft Azure] Translator 认证方式",
 					"val": "Key",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "Key",
@@ -733,7 +733,7 @@
 					"id": "@DualSubs.API.Settings.DeepL.Version",
 					"name": "[DeepL] API 模式",
 					"val": "Free",
-					"type": "radios",
+					"type": "selects",
 					"items": [
 						{
 							"key": "Free",
