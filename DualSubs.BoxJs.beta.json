@@ -906,9 +906,13 @@
 						{
 							"key": "Pro",
 							"label": "Pro"
+						},
+						{
+							"key": "X",
+							"label": "X"
 						}
 					],
-					"desc": "模式二选一"
+					"desc": "模式三选一"
 				},
 				{
 					"id": "@DualSubs.API.Settings.DeepL.Auth",
@@ -916,6 +920,14 @@
 					"val": "",
 					"type": "text",
 					"placeholder": "df4385c2-33de-e423-4134-ca1f7b3ea8b7",
+					"desc": "未提供时不会启用此类型字幕"
+				},
+				{
+					"id": "@DualSubs.API.Settings.DeepL.Endpoint",
+					"name": "[DeepL X] API 终结点",
+					"val": "",
+					"type": "text",
+					"placeholder": "http://localhost:1188/translate",
 					"desc": "未提供时不会启用此类型字幕"
 				}
 			],
