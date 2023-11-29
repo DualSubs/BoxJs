@@ -589,6 +589,10 @@
 						{
 							"key": "DeepL",
 							"label": "DeepL API"
+						},
+						{
+							"key": "DeepLX",
+							"label": "DeepL X"
 						}
 					]
 				},
@@ -637,6 +641,10 @@
 						{
 							"key": "DeepL",
 							"label": "DeepL API"
+						},
+						{
+							"key": "DeepLX",
+							"label": "DeepL X"
 						}
 					]
 				},
@@ -906,13 +914,9 @@
 						{
 							"key": "Pro",
 							"label": "Pro"
-						},
-						{
-							"key": "X",
-							"label": "X"
 						}
 					],
-					"desc": "模式三选一"
+					"desc": "模式二选一"
 				},
 				{
 					"id": "@DualSubs.API.Settings.DeepL.Auth",
@@ -923,12 +927,20 @@
 					"desc": "未提供时不会启用此类型字幕"
 				},
 				{
-					"id": "@DualSubs.API.Settings.DeepL.Endpoint",
+					"id": "@DualSubs.API.Settings.DeepLX.Endpoint",
 					"name": "[DeepL X] API 终结点",
 					"val": "",
 					"type": "text",
 					"placeholder": "http://localhost:1188/translate",
 					"desc": "未提供时不会启用此类型字幕"
+				},
+				{
+					"id": "@DualSubs.API.Settings.DeepLX.Key",
+					"name": "[DeepL X] API 密钥",
+					"val": "",
+					"type": "text",
+					"placeholder": "1234567",
+					"desc": "没有设置密钥时，请留空"
 				}
 			],
 			"author": "@DualSubs",
