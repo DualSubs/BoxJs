@@ -394,9 +394,9 @@
 				{
 					"id": "@DualSubs.Official.Settings.CacheSize",
 					"name": "官方字幕: 播放记录缓存数量",
-					"val": 100,
+					"val": 50,
 					"type": "number",
-					"placeholder": "100",
+					"placeholder": "50",
 					"desc": "此选项决定同网关、同平台、同时处理和播放的数量, 建议设置此数值不小于播放设备数"
 				},
 				{
