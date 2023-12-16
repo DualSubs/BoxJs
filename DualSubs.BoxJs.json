@@ -467,8 +467,8 @@
 							"label": "Google Cloud Translate API"
 						},
 						{
-							"key": "Azure",
-							"label": "Microsoft Azure Translator"
+							"key": "Microsoft",
+							"label": "Microsoft Translator"
 						},
 						{
 							"key": "DeepL",
@@ -676,8 +676,8 @@
 					"desc": "未提供时不会启用此类型字幕"
 				},
 				{
-					"id": "@DualSubs.API.Settings.Azure.Version",
-					"name": "[Microsoft Azure] Translator API 版本",
+					"id": "@DualSubs.API.Settings.Microsoft.Version",
+					"name": "[Microsoft Translator] API 版本",
 					"val": "Azure",
 					"type": "selects",
 					"items": [
@@ -697,41 +697,41 @@
 					"desc": "选择版本"
 				},
 				{
-					"id": "@DualSubs.API.Settings.Azure.Region",
-					"name": "[Microsoft Azure] Translator 区域代码",
+					"id": "@DualSubs.API.Settings.Microsoft.Mode",
+					"name": "[Microsoft Translator] 认证方式",
+					"val": "Token",
+					"type": "selects",
+					"items": [
+						{
+							"key": "Token",
+							"label": "令牌 (Edge Translator)"
+						},
+						{
+							"key": "Key",
+							"label": "密钥 (Microsoft Azure)"
+						}
+					],
+					"desc": "认证方式二选一"
+				},
+				{
+					"id": "@DualSubs.API.Settings.Microsoft.Region",
+					"name": "[Microsoft Translator] Azure 区域代码 (Key/密钥模式必须)",
 					"val": "global",
 					"type": "text",
 					"placeholder": "global",
 					"desc": "如果开通Microsoft Azure Translator时没有选择全球global，则需要填写开通的地区代码，如chinanorth, chinaeast2等"
 				},
 				{
-					"id": "@DualSubs.API.Settings.Azure.Mode",
-					"name": "[Microsoft Azure] Translator 认证方式",
-					"val": "Key",
-					"type": "selects",
-					"items": [
-						{
-							"key": "Key",
-							"label": "密钥"
-						},
-						{
-							"key": "Token",
-							"label": "令牌（暂不支持，别选）"
-						}
-					],
-					"desc": "验证方式二选一"
-				},
-				{
-					"id": "@DualSubs.API.Settings.Azure.Auth",
-					"name": "[Microsoft Azure] Translator 认证密钥",
+					"id": "@DualSubs.API.Settings.Microsoft.Auth",
+					"name": "[Microsoft Translator] 认证内容",
 					"val": "",
 					"type": "text",
 					"placeholder": "c3639587ac214f2e917862c80a2b821b",
-					"desc": "未提供时不会启用此类型字幕"
+					"desc": "请填写 Azure 令牌(Token)或 Edge 密钥(Key)，未提供时不会启用此类型字幕"
 				},
 				{
 					"id": "@DualSubs.API.Settings.DeepL.Version",
-					"name": "[DeepL] API 模式",
+					"name": "[DeepL] API 版本",
 					"val": "Free",
 					"type": "selects",
 					"items": [
