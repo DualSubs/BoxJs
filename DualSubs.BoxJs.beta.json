@@ -583,7 +583,7 @@
 							"label": "Microsoft Bing"
 						},
 						{
-							"key": "Azure",
+							"key": "Microsoft",
 							"label": "Microsoft Translator"
 						},
 						{
@@ -635,7 +635,7 @@
 							"label": "Microsoft Bing"
 						},
 						{
-							"key": "Azure",
+							"key": "Microsoft",
 							"label": "Microsoft Translator"
 						},
 						{
@@ -848,7 +848,7 @@
 					"desc": "未提供时不会启用此类型字幕"
 				},
 				{
-					"id": "@DualSubs.API.Settings.Azure.Version",
+					"id": "@DualSubs.API.Settings.Microsoft.Version",
 					"name": "[Microsoft Translator] API 版本",
 					"val": "Azure",
 					"type": "selects",
@@ -869,7 +869,7 @@
 					"desc": "选择版本"
 				},
 				{
-					"id": "@DualSubs.API.Settings.Azure.Mode",
+					"id": "@DualSubs.API.Settings.Microsoft.Mode",
 					"name": "[Microsoft Translator] 认证方式",
 					"val": "Token",
 					"type": "selects",
@@ -886,7 +886,7 @@
 					"desc": "认证方式二选一"
 				},
 				{
-					"id": "@DualSubs.API.Settings.Azure.Region",
+					"id": "@DualSubs.API.Settings.Microsoft.Region",
 					"name": "[Microsoft Translator] Azure 区域代码 (Key/密钥模式必须)",
 					"val": "global",
 					"type": "text",
@@ -894,12 +894,12 @@
 					"desc": "如果开通Microsoft Azure Translator时没有选择全球global，则需要填写开通的地区代码，如chinanorth, chinaeast2等"
 				},
 				{
-					"id": "@DualSubs.API.Settings.Azure.Auth",
-					"name": "[Microsoft Translator] 认证内容 Azure令牌(Token)或Edge密钥(Key)",
+					"id": "@DualSubs.API.Settings.Microsoft.Auth",
+					"name": "[Microsoft Translator] 认证内容",
 					"val": "",
 					"type": "text",
 					"placeholder": "c3639587ac214f2e917862c80a2b821b",
-					"desc": "Azure 令牌(Token)或 Edge 密钥(Key)，未提供时不会启用此类型字幕"
+					"desc": "请填写 Azure 令牌(Token)或 Edge 密钥(Key)，未提供时不会启用此类型字幕"
 				},
 				{
 					"id": "@DualSubs.API.Settings.DeepL.Version",
