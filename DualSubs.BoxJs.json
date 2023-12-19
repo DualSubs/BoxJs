@@ -665,7 +665,7 @@
 							"label": "令牌（暂不支持，别选）"
 						}
 					],
-					"desc": "验证方式二选一"
+					"desc": "认证方式二选一"
 				},
 				{
 					"id": "@DualSubs.API.Settings.GoogleCloud.Auth",
@@ -744,11 +744,11 @@
 							"label": "Pro"
 						}
 					],
-					"desc": "模式二选一"
+					"desc": "选择版本"
 				},
 				{
 					"id": "@DualSubs.API.Settings.DeepL.Auth",
-					"name": "[DeepL] API 认证密钥",
+					"name": "[DeepL] API 认证内容",
 					"val": "",
 					"type": "text",
 					"placeholder": "df4385c2-33de-e423-4134-ca1f7b3ea8b7",
