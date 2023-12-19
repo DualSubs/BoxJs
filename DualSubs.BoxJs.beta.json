@@ -817,7 +817,7 @@
 						},
 						{
 							"key": "v3",
-							"label": "V3版（暂不支持，别选）"
+							"label": "V3版"
 						}
 					],
 					"desc": "选择版本"
@@ -841,11 +841,11 @@
 				},
 				{
 					"id": "@DualSubs.API.Settings.GoogleCloud.Auth",
-					"name": "[Google Cloud] Translation API 认证密钥",
+					"name": "[Google Cloud] Translation API 认证内容",
 					"val": "",
 					"type": "text",
 					"placeholder": "AIzaSyD6NNneoaqSTL2mE3_S1DNPvzrxwcFLIAY",
-					"desc": "未提供时不会启用此类型字幕"
+					"desc": "请填写令牌(Token)或密钥(Key)，未提供时不会启用此类型字幕"
 				},
 				{
 					"id": "@DualSubs.API.Settings.Microsoft.Version",
@@ -899,7 +899,7 @@
 					"val": "",
 					"type": "text",
 					"placeholder": "c3639587ac214f2e917862c80a2b821b",
-					"desc": "请填写 Azure 令牌(Token)或 Edge 密钥(Key)，未提供时不会启用此类型字幕"
+					"desc": "请填写令牌(Token)或密钥(Key)，未提供时不会启用此类型字幕"
 				},
 				{
 					"id": "@DualSubs.API.Settings.DeepL.Version",
@@ -924,7 +924,7 @@
 					"val": "",
 					"type": "text",
 					"placeholder": "df4385c2-33de-e423-4134-ca1f7b3ea8b7",
-					"desc": "未提供时不会启用此类型字幕"
+					"desc": "请填写令牌(Token)或密钥(Key)，未提供时不会启用此类型字幕"
 				},
 				{
 					"id": "@DualSubs.API.Settings.DeepLX.Endpoint",
@@ -935,12 +935,12 @@
 					"desc": "未提供时不会启用此类型字幕"
 				},
 				{
-					"id": "@DualSubs.API.Settings.DeepLX.Key",
+					"id": "@DualSubs.API.Settings.DeepLX.Auth",
 					"name": "[DeepL X] API 密钥",
 					"val": "",
 					"type": "text",
 					"placeholder": "1234567",
-					"desc": "没有设置密钥时，请留空"
+					"desc": "请填写令牌(Token)或密钥(Key)，没有设置密钥时，请留空"
 				}
 			],
 			"author": "@DualSubs",
