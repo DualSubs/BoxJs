@@ -73,27 +73,31 @@
 						},
 						{
 							"key": "EN",
-							"label": "英语（自动）"
+							"label": "English - 英语（自动）"
 						},
 						{
 							"key": "ES",
-							"label": "西班牙语（自动）"
+							"label": "Español - 西班牙语（自动）"
 						},
 						{
 							"key": "JA",
-							"label": "日文"
+							"label": "日本語 - 日语"
 						},
 						{
 							"key": "KO",
-							"label": "韩文"
+							"label": "한국어 - 韩语"
 						},
 						{
 							"key": "DE",
-							"label": "德语"
+							"label": "Deutsch - 德语"
 						},
 						{
 							"key": "FR",
-							"label": "法语"
+							"label": "Français - 法语"
+						},
+						{
+							"key": "TR",
+							"label": "Türkçe - 土耳其语"
 						}
 					],
 					"desc": "当“主语言”字幕存在时，将生成“主语言/副语言（翻译）”与“主语言（外挂）”的字幕或字幕选项"
@@ -122,27 +126,31 @@
 						},
 						{
 							"key": "EN",
-							"label": "英语（自动）"
+							"label": "English - 英语（自动）"
 						},
 						{
 							"key": "ES",
-							"label": "西班牙语（自动）"
+							"label": "Español - 西班牙语（自动）"
 						},
 						{
 							"key": "JA",
-							"label": "日文"
+							"label": "日本語 - 日语"
 						},
 						{
 							"key": "KO",
-							"label": "韩文"
+							"label": "한국어 - 韩语"
 						},
 						{
 							"key": "DE",
-							"label": "德语"
+							"label": "Deutsch - 德语"
 						},
 						{
 							"key": "FR",
-							"label": "法语"
+							"label": "Français - 法语"
+						},
+						{
+							"key": "TR",
+							"label": "Türkçe - 土耳其语"
 						}
 					],
 					"desc": "当“副语言”字幕存在时，将生成“副语言/主语言（官方）”的字幕或字幕选项"
@@ -295,27 +303,31 @@
 						},
 						{
 							"key": "EN",
-							"label": "英语（自动）"
+							"label": "English - 英语（自动）"
 						},
 						{
 							"key": "ES",
-							"label": "西班牙语（自动）"
+							"label": "Español - 西班牙语（自动）"
 						},
 						{
 							"key": "JA",
-							"label": "日文"
+							"label": "日本語 - 日语"
 						},
 						{
 							"key": "KO",
-							"label": "韩文"
+							"label": "한국어 - 韩语"
 						},
 						{
 							"key": "DE",
-							"label": "德语"
+							"label": "Deutsch - 德语"
 						},
 						{
 							"key": "FR",
-							"label": "法语"
+							"label": "Français - 法语"
+						},
+						{
+							"key": "TR",
+							"label": "Türkçe - 土耳其语"
 						}
 					],
 					"desc": "当“主语言”字幕存在时，将生成“主语言/副语言（翻译）”与“主语言（外挂）”的字幕或字幕选项"
@@ -344,27 +356,31 @@
 						},
 						{
 							"key": "EN",
-							"label": "英语（自动）"
+							"label": "English - 英语（自动）"
 						},
 						{
 							"key": "ES",
-							"label": "西班牙语（自动）"
+							"label": "Español - 西班牙语（自动）"
 						},
 						{
 							"key": "JA",
-							"label": "日文"
+							"label": "日本語 - 日语"
 						},
 						{
 							"key": "KO",
-							"label": "韩文"
+							"label": "한국어 - 韩语"
 						},
 						{
 							"key": "DE",
-							"label": "德语"
+							"label": "Deutsch - 德语"
 						},
 						{
 							"key": "FR",
-							"label": "法语"
+							"label": "Français - 法语"
+						},
+						{
+							"key": "TR",
+							"label": "Türkçe - 土耳其语"
 						}
 					],
 					"desc": "当“副语言”字幕存在时，将生成“副语言/主语言（官方）”的字幕或字幕选项"
