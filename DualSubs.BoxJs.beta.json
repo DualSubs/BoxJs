@@ -27,7 +27,7 @@
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Types",
-					"name": "[字幕] 启用类型",
+					"name": "启用类型",
 					"val": [
 						"Official",
 						"Translate"
@@ -37,21 +37,21 @@
 					"items": [
 						{
 							"key": "Official",
-							"label": "官方字幕"
+							"label": "官方字幕（合成器）"
 						},
 						{
 							"key": "Translate",
-							"label": "翻译字幕"
+							"label": "翻译字幕（翻译器）"
 						},
 						{
 							"key": "External",
-							"label": "外部字幕"
+							"label": "外挂字幕（合成器）"
 						}
 					]
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[0]",
-					"name": "[字幕] 主语言（源语言）",
+					"name": "主字幕语言（源语言）",
 					"val": "EN",
 					"type": "selects",
 					"items": [
@@ -128,7 +128,7 @@
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[1]",
-					"name": "[字幕] 副语言（目标语言）",
+					"name": "副字幕语言（目标语言）",
 					"val": "ZH",
 					"type": "selects",
 					"items": [
@@ -239,11 +239,11 @@
 					"items": [
 						{
 							"key": "Official",
-							"label": "官方字幕"
+							"label": "官方字幕（合成器）"
 						},
 						{
 							"key": "Translate",
-							"label": "翻译字幕（QX不支持）"
+							"label": "翻译字幕（翻译器，QX不支持）"
 						}
 					]
 				},
@@ -255,21 +255,21 @@
 						"External"
 					],
 					"type": "checkboxes",
-					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
+					"desc": "请选择要添加的歌词选项，如果为多选，则会自动决定提供的歌词类型",
 					"items": [
 						{
 							"key": "Translate",
-							"label": "翻译歌词"
+							"label": "翻译歌词（翻译器）"
 						},
 						{
 							"key": "External",
-							"label": "外部歌词（QX不支持）"
+							"label": "外部歌词（外部源，QX不支持）"
 						}
 					]
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.Languages[0]",
-					"name": "[字幕与歌词] 主语言（源语言）",
+					"name": "主字幕与歌词语言（源语言）",
 					"val": "AUTO",
 					"type": "selects",
 					"items": [
@@ -282,7 +282,7 @@
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.Languages[1]",
-					"name": "[字幕与歌词] 副语言（目标语言）",
+					"name": "副字幕与歌词语言（目标语言）",
 					"val": "AUTO",
 					"type": "selects",
 					"items": [
@@ -295,14 +295,14 @@
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.AutoCC",
-					"name": "[字幕] 自动显示",
+					"name": "自动显示字幕",
 					"val": true,
 					"type": "boolean",
 					"desc": "开启后总是自动开启显示字幕"
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.ShowOnly",
-					"name": "[翻译字幕] 只显示“自动翻译”字幕",
+					"name": "只显示“自动翻译”字幕",
 					"val": false,
 					"type": "boolean",
 					"desc": "开启后仅显示“自动翻译”后的字幕，不显示源语言字幕"
@@ -336,23 +336,27 @@
 				},
 				{
 					"id": "@DualSubs.Netflix.Settings.Type",
-					"name": "[字幕] 启用类型",
+					"name": "启用类型",
 					"val": "Translate",
 					"type": "selects",
 					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
 					"items": [
 						{
 							"key": "Translate",
-							"label": "翻译字幕"
+							"label": "翻译字幕（翻译器）"
 						}
 					]
 				},
 				{
 					"id": "@DualSubs.Netflix.Settings.Languages[0]",
-					"name": "[字幕] 主语言（源语言）",
-					"val": "EN",
+					"name": "主字幕语言（源语言）",
+					"val": "AUTO",
 					"type": "selects",
 					"items": [
+						{
+							"key": "AUTO",
+							"label": "自动 - Automatic"
+						},
 						{
 							"key": "ZH",
 							"label": "中文（自动）"
@@ -426,7 +430,7 @@
 				},
 				{
 					"id": "@DualSubs.Netflix.Settings.Languages[1]",
-					"name": "[字幕] 副语言（目标语言）",
+					"name": "副字幕语言（目标语言）",
 					"val": "ZH",
 					"type": "selects",
 					"items": [
@@ -530,7 +534,7 @@
 				},
 				{
 					"id": "@DualSubs.Spotify.Settings.Types",
-					"name": "[歌词] 启用类型",
+					"name": "启用类型",
 					"val": [
 						"Translate",
 						"External"
@@ -540,17 +544,17 @@
 					"items": [
 						{
 							"key": "Translate",
-							"label": "翻译歌词"
+							"label": "翻译歌词（翻译器）"
 						},
 						{
 							"key": "External",
-							"label": "外部歌词（QX不支持）"
+							"label": "外部歌词（外部源，QX不支持）"
 						}
 					]
 				},
 				{
 					"id": "@DualSubs.Spotify.Settings.Languages[0]",
-					"name": "[翻译歌词] 主语言（源语言）",
+					"name": "主翻译歌词语言（源语言）",
 					"val": "AUTO",
 					"type": "selects",
 					"items": [
@@ -563,7 +567,7 @@
 				},
 				{
 					"id": "@DualSubs.Netflix.Settings.Languages[1]",
-					"name": "[翻译歌词] 副语言（目标语言）",
+					"name": "副翻译歌词语言（目标语言）",
 					"val": "ZH",
 					"type": "selects",
 					"items": [
@@ -647,30 +651,30 @@
 			]
 		},
 		{
-			"id": "DualSubs.Official.beta",
-			"name": "🍿️ DualSubs: 官方字幕 β",
+			"id": "DualSubs.Composite.beta",
+			"name": "🍿️ DualSubs: 合成器（官方&外挂字幕）β",
 			"descs_html": [
 				"请参照<a href=\"https://github.com/DualSubs\">DualSubs</a>的使用说明进行配置",
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
 			],
 			"keys": [
-				"@DualSubs.Official.Settings",
-				"@DualSubs.Official.Caches.Playlists.Master",
-				"@DualSubs.Official.Caches.Playlists.Subtitle",
-				"@DualSubs.Official.Caches.Subtitles"
+				"@DualSubs.Composite.Settings",
+				"@DualSubs.Composite.Caches.Playlists.Master",
+				"@DualSubs.Composite.Caches.Playlists.Subtitle",
+				"@DualSubs.Composite.Caches.Subtitles"
 			],
 			"settings": [
 				{
-					"id": "@DualSubs.Official.Settings.CacheSize",
-					"name": "[官方字幕] 播放记录缓存数量",
-					"val": 50,
+					"id": "@DualSubs.Composite.Settings.CacheSize",
+					"name": "播放记录缓存数量",
+					"val": 20,
 					"type": "number",
-					"placeholder": "50",
-					"desc": "此选项决定同网关、同平台、同时处理和播放的数量, 建议设置此数值不小于播放设备数"
+					"placeholder": "20",
+					"desc": "此选项决定同网关、同平台、同时处理和播放的数量, 建议设置此数值不小于播放设备数，最大可用值为50"
 				},
 				{
-					"id": "@DualSubs.Official.Settings.Position",
-					"name": "[官方字幕] 主语言（源语言）字幕位置",
+					"id": "@DualSubs.Composite.Settings.Position",
+					"name": "主语言（源语言）字幕位置",
 					"val": "Reverse",
 					"type": "selects",
 					"items": [
@@ -686,16 +690,24 @@
 					"desc": "主语言（源语言）字幕的显示位置"
 				},
 				{
-					"id": "@DualSubs.Official.Settings.Offset",
-					"name": "[官方字幕] 时间偏移量",
+					"id": "@DualSubs.Composite.Settings.URL",
+					"name": "[外挂字幕] URL网址",
+					"val": "",
+					"type": "text",
+					"placeholder": "https://example.com/path/subtitle.srt",
+					"desc": "请填写字幕的网址链接，兼容WebVTT和SRT格式字幕，未提供时不会启用此类型字幕"
+				},
+				{
+					"id": "@DualSubs.Composite.Settings.Offset",
+					"name": "[外挂字幕] 时间偏移量",
 					"val": 0,
 					"type": "number",
 					"placeholder": "0",
 					"desc": "单位：毫秒(ms)，正负整数"
 				},
 				{
-					"id": "@DualSubs.Official.Settings.Tolerance",
-					"name": "[官方字幕] 时间戳公差",
+					"id": "@DualSubs.Composite.Settings.Tolerance",
+					"name": "[外挂字幕] 时间戳公差",
 					"val": 1000,
 					"type": "number",
 					"placeholder": "1000",
@@ -710,7 +722,7 @@
 		},
 		{
 			"id": "DualSubs.Translate.beta",
-			"name": "🍿️ DualSubs: 翻译字幕与歌词 β",
+			"name": "🍿️ DualSubs: 翻译器（翻译字幕&歌词） β",
 			"descs_html": [
 				"请参照<a href=\"https://github.com/DualSubs\">DualSubs</a>的使用说明进行配置",
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
@@ -722,7 +734,7 @@
 			"settings": [
 				{
 					"id": "@DualSubs.Translate.Settings.Vendor",
-					"name": "[翻译字幕与歌词] 服务商API",
+					"name": "服务商API",
 					"val": "Google",
 					"type": "selects",
 					"desc": "请选择字幕翻译功能所使用的翻译API",
@@ -770,67 +782,15 @@
 					]
 				},
 				{
-					"id": "@DualSubs.Translate.Settings.Vendors",
-					"name": "[翻译字幕] 服务商API",
-					"val": [
-						"Google",
-						"Bing"
-					],
-					"type": "checkboxes",
-					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
-					"items": [
-						{
-							"key": "Baidu",
-							"label": "百度翻译"
-						},
-						{
-							"key": "BaiduFanyi",
-							"label": "百度 翻译开放平台"
-						},
-						{
-							"key": "Youdao",
-							"label": "有道翻译"
-						},
-						{
-							"key": "YoudaoAI",
-							"label": "有道智云 AI开放平台"
-						},
-						{
-							"key": "Google",
-							"label": "Google Translate"
-						},
-						{
-							"key": "GoogleCloud",
-							"label": "Google Cloud Translate API"
-						},
-						{
-							"key": "Bing",
-							"label": "Microsoft Bing"
-						},
-						{
-							"key": "Microsoft",
-							"label": "Microsoft Translator"
-						},
-						{
-							"key": "DeepL",
-							"label": "DeepL API"
-						},
-						{
-							"key": "DeepLX",
-							"label": "DeepL X"
-						}
-					]
-				},
-				{
 					"id": "@DualSubs.Translate.Settings.ShowOnly",
-					"name": "[翻译字幕] 只显示翻译字幕",
+					"name": "只显示翻译后字幕",
 					"val": false,
 					"type": "boolean",
 					"desc": "开启后仅显示翻译字幕，不做字幕合并操作"
 				},
 				{
 					"id": "@DualSubs.Translate.Settings.Position",
-					"name": "[翻译字幕] 主语言（源语言）字幕位置",
+					"name": "主语言（源语言）字幕位置",
 					"val": "Forward",
 					"type": "selects",
 					"items": [
@@ -902,14 +862,13 @@
 		},
 		{
 			"id": "DualSubs.External.beta",
-			"name": "🍿️ DualSubs: 外部字幕与歌词 β",
+			"name": "🍿️ DualSubs: 外部源（外部歌词） β",
 			"descs_html": [
 				"请参照<a href=\"https://github.com/DualSubs\">DualSubs</a>的使用说明进行配置",
 				"填写完成后别忘点击此页面底端右下角的\"保存\"。"
 			],
 			"keys": [
 				"@DualSubs.External.Settings",
-				"@DualSubs.External.Caches.Subtitles",
 				"@DualSubs.External.Caches.TrackInfo"
 			],
 			"settings": [
@@ -928,7 +887,7 @@
 				},
 				{
 					"id": "@DualSubs.External.Settings.LrcVendor",
-					"name": "[外部歌词] 服务商API",
+					"name": "[歌词] 服务商API",
 					"val": "NeteaseMusicNodeJS",
 					"type": "selects",
 					"desc": "请选择外部字幕功能所使用的服务商API",
@@ -949,51 +908,11 @@
 				},
 				{
 					"id": "@DualSubs.External.Settings.CacheSize",
-					"name": "[外部字幕与歌词] 播放记录缓存数量",
+					"name": "播放记录缓存数量",
 					"val": 50,
 					"type": "number",
 					"placeholder": "50",
 					"desc": "此选项决定同网关、同平台、同时处理和播放的数量, 建议设置此数值不小于播放设备数"
-				},
-				{
-					"id": "@DualSubs.External.Settings.ShowOnly",
-					"name": "[外部字幕] 只显示外部字幕",
-					"val": false,
-					"type": "boolean",
-					"desc": "开启后仅显示外挂字幕，不做字幕合并操作"
-				},
-				{
-					"id": "@DualSubs.External.Settings.Position",
-					"name": "[外部字幕] 主语言（源语言）字幕位置",
-					"val": "Forward",
-					"type": "selects",
-					"items": [
-						{
-							"key": "Forward",
-							"label": "上面（第一行）"
-						},
-						{
-							"key": "Reverse",
-							"label": "下面（第二行）"
-						}
-					],
-					"desc": "主语言（源语言）字幕的显示位置"
-				},
-				{
-					"id": "@DualSubs.External.Settings.Offset",
-					"name": "[外部字幕] 时间偏移量",
-					"val": 0,
-					"type": "number",
-					"placeholder": "0",
-					"desc": "单位：毫秒(ms)，正负整数"
-				},
-				{
-					"id": "@DualSubs.External.Settings.Tolerance",
-					"name": "[外部字幕] 时间戳公差",
-					"val": 1000,
-					"type": "number",
-					"placeholder": "1000",
-					"desc": "单位：毫秒(ms)，正整数，字幕时间戳匹配时容许的误差范围，不懂就别动"
 				}
 			],
 			"author": "@DualSubs",
@@ -1168,14 +1087,6 @@
 				"@DualSubs.API.Settings"
 			],
 			"settings": [
-				{
-					"id": "@DualSubs.API.Settings.URL",
-					"name": "[外部字幕] URL 网址",
-					"val": "",
-					"type": "text",
-					"placeholder": "https://example.com/path/subtitle.srt",
-					"desc": "请填写字幕的网址链接，兼容WebVTT和SRT格式字幕，未提供时不会启用此类型字幕"
-				},
 				{
 					"id": "@DualSubs.API.Settings.NeteaseMusic.PhoneNumber",
 					"name": "[网易云音乐] 手机号码",
