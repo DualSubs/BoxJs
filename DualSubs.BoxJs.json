@@ -704,17 +704,17 @@
 				{
 					"id": "@DualSubs.External.Settings.LrcVendor",
 					"name": "[歌词] 服务商API",
-					"val": "NeteaseMusicNodeJS",
+					"val": "QQMusic",
 					"type": "selects",
 					"desc": "请选择外部字幕功能所使用的服务商API",
 					"items": [
 						{
-							"key": "NeteaseMusicNodeJS",
-							"label": "网易云音乐 NodeJS API"
-						},
-						{
 							"key": "QQMusic",
 							"label": "QQ音乐（官方）"
+						},
+						{
+							"key": "NeteaseMusicNodeJS",
+							"label": "网易云音乐 NodeJS API"
 						}
 					]
 				},
