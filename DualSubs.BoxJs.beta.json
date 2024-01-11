@@ -690,24 +690,16 @@
 					"desc": "主语言（源语言）字幕的显示位置"
 				},
 				{
-					"id": "@DualSubs.Composite.Settings.URL",
-					"name": "[外挂字幕] URL网址",
-					"val": "",
-					"type": "text",
-					"placeholder": "https://example.com/path/subtitle.srt",
-					"desc": "请填写字幕的网址链接，兼容WebVTT和SRT格式字幕，未提供时不会启用此类型字幕"
-				},
-				{
 					"id": "@DualSubs.Composite.Settings.Offset",
-					"name": "[外挂字幕] 时间偏移量",
+					"name": "[合成器] 时间偏移量",
 					"val": 0,
 					"type": "number",
 					"placeholder": "0",
-					"desc": "单位：毫秒(ms)，正负整数"
+					"desc": "单位：毫秒(ms)，正负整数，不懂就别动"
 				},
 				{
 					"id": "@DualSubs.Composite.Settings.Tolerance",
-					"name": "[外挂字幕] 时间戳公差",
+					"name": "[合成器] 时间戳公差",
 					"val": 1000,
 					"type": "number",
 					"placeholder": "1000",

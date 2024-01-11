@@ -557,6 +557,22 @@
 						}
 					],
 					"desc": "主语言（源语言）字幕的显示位置"
+				},
+				{
+					"id": "@DualSubs.Composite.Settings.Offset",
+					"name": "[合成器] 时间偏移量",
+					"val": 0,
+					"type": "number",
+					"placeholder": "0",
+					"desc": "单位：毫秒(ms)，正负整数，不懂就别动"
+				},
+				{
+					"id": "@DualSubs.Composite.Settings.Tolerance",
+					"name": "[合成器] 时间戳公差",
+					"val": 1000,
+					"type": "number",
+					"placeholder": "1000",
+					"desc": "单位：毫秒(ms)，正整数，字幕时间戳匹配时容许的误差范围，不懂就别动"
 				}
 			],
 			"author": "@DualSubs",
