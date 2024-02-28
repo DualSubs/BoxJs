@@ -52,9 +52,13 @@
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[0]",
 					"name": "主字幕语言（源语言）",
-					"val": "EN",
+					"val": "AUTO",
 					"type": "selects",
 					"items": [
+						{
+							"key": "AUTO",
+							"label": "自动 - Automatic"
+						},
 						{
 							"key": "ZH",
 							"label": "中文（自动）"
