@@ -15,16 +15,16 @@
 				{
 					"id": "@DualSubs.Universal.Settings.Types",
 					"name": "[字幕] 启用类型",
-					"val": ["Official", "Translate"],
 					"type": "checkboxes",
-					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项",
-					"items": [{ "key": "Official", "label": "官方字幕（合成器）" }, { "key": "Translate", "label": "翻译字幕（翻译器）" }]
+					"val": ["Official", "Translate"],
+					"items": [{ "key": "Official", "label": "官方字幕（合成器）" }, { "key": "Translate", "label": "翻译字幕（翻译器）" }],
+					"desc": "请选择要添加的字幕选项，如果为标准播放器，则会在字幕选项中新增勾选字幕选项。"
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[0]",
 					"name": "[字幕] 主语言（源语言）",
-					"val": "AUTO",
 					"type": "selects",
+					"val": "AUTO",
 					"items": [
 						{ "key": "AUTO", "label": "自动 - Automatic" },
 						{ "key": "ZH", "label": "中文（自动）" },
@@ -40,13 +40,13 @@
 						{ "key": "TR", "label": "Türkçe - 土耳其语" },
 						{ "key": "KM", "label": "ភាសាខ្មែរ - 高棉语" }
 					],
-					"desc": "当“主语言”字幕存在时，将生成“主语言/副语言（翻译）”与“主语言（外挂）”的字幕或字幕选项"
+					"desc": "当“主语言”字幕存在时，将生成“主语言/副语言（翻译）”与“主语言（外挂）”的字幕或字幕选项。"
 				},
 				{
 					"id": "@DualSubs.Universal.Settings.Languages[1]",
 					"name": "[字幕] 副语言（目标语言）",
-					"val": "ZH",
 					"type": "selects",
+					"val": "ZH",
 					"items": [
 						{ "key": "ZH", "label": "中文（自动）" },
 						{ "key": "ZH-HANS", "label": "中文（简体）" },
@@ -61,7 +61,22 @@
 						{ "key": "TR", "label": "Türkçe - 土耳其语" },
 						{ "key": "KM", "label": "ភាសាខ្មែរ - 高棉语" }
 					],
-					"desc": "当“副语言”字幕存在时，将生成“副语言/主语言（官方）”的字幕或字幕选项"
+					"desc": "当“副语言”字幕存在时，将生成“副语言/主语言（官方）”的字幕或字幕选项。"
+				},
+				{
+					"id": "@DualSubs.Universal.Settings.LogLevel",
+					"name": "[调试] 日志等级",
+					"type": "selects",
+					"val": "WARN",
+					"items": [
+						{ "key": "OFF", "label": "关闭" },
+						{ "key": "ERROR", "label": "❌ 错误" },
+						{ "key": "WARN", "label": "⚠️ 警告" },
+						{ "key": "INFO", "label": "ℹ️ 信息" },
+						{ "key": "DEBUG", "label": "🅱️ 调试" },
+						{ "key": "ALL", "label": "全部" }
+					],
+					"desc": "选择脚本日志的输出等级，低于所选等级的日志将全部输出。"
 				}
 			],
 			"author": "@DualSubs",
