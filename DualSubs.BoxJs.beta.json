@@ -104,37 +104,36 @@
 				{
 					"id": "@DualSubs.YouTube.Settings.Type",
 					"name": "[字幕] 启用类型",
-					"val": "Official",
 					"type": "selects",
-					"desc": "请选择要使用的字幕，双语字幕将使用您选择类型呈现。",
-					"items": [{ "key": "Official", "label": "官方字幕（合成器）" }, { "key": "Translate", "label": "翻译字幕（翻译器）" }]
+					"val": "Official",
+					"items": [{ "key": "Official", "label": "官方字幕（合成器）" }, { "key": "Translate", "label": "翻译字幕（翻译器）" }],
+					"desc": "请选择要使用的字幕，双语字幕将使用您选择类型呈现。"
 				},
 				{
 					"id": "@DualSubs.YouTube.Settings.Types",
 					"name": "[歌词] 启用类型",
-					"val": ["Translate", "External"],
 					"type": "checkboxes",
-					"desc": "请选择要添加的歌词选项，如果为多选，则会自动决定提供的歌词类型",
-					"items": [{ "key": "Translate", "label": "翻译歌词（翻译器）" }, { "key": "External", "label": "外部歌词（外部源）" }]
+					"val": ["Translate", "External"],
+					"items": [{ "key": "Translate", "label": "翻译歌词（翻译器）" }, { "key": "External", "label": "外部歌词（外部源）" }],
+					"desc": "请选择要添加的歌词选项，如果为多选，则会自动决定提供的歌词类型。"
 				},
+				{ "id": "@DualSubs.YouTube.Settings.AutoCC", "name": "[字幕] 自动显示", "type": "boolean", "val": true, "desc": "是否总是自动开启字幕显示。" },
+				{ "id": "@DualSubs.YouTube.Settings.ShowOnly", "name": "[翻译器] 只显示“自动翻译”字幕", "type": "boolean", "val": false, "desc": "是否仅显示“自动翻译”字幕，不显示源语言字幕。" },
 				{
-					"id": "@DualSubs.YouTube.Settings.Languages[0]",
-					"name": "[字幕与歌词] 主语言（源语言）",
-					"val": "AUTO",
+					"id": "@DualSubs.YouTube.Settings.LogLevel",
+					"name": "[调试] 日志等级",
 					"type": "selects",
-					"items": [{ "key": "AUTO", "label": "自动 - Automatic" }],
-					"desc": "请在 YouTube 播放器的“字幕”选项中进行选择"
-				},
-				{
-					"id": "@DualSubs.YouTube.Settings.Languages[1]",
-					"name": "[字幕与歌词] 副语言（目标语言）",
-					"val": "AUTO",
-					"type": "selects",
-					"items": [{ "key": "AUTO", "label": "自动 - Automatic" }],
-					"desc": "请在 YouTube 播放器的“字幕”-“自动翻译”选项中进行选择"
-				},
-				{ "id": "@DualSubs.YouTube.Settings.AutoCC", "name": "自动显示字幕", "val": true, "type": "boolean", "desc": "开启后总是自动开启显示字幕" },
-				{ "id": "@DualSubs.YouTube.Settings.ShowOnly", "name": "只显示“自动翻译”字幕", "val": false, "type": "boolean", "desc": "开启后仅显示“自动翻译”后的字幕，不显示源语言字幕" }
+					"val": "WARN",
+					"items": [
+						{ "key": "OFF", "label": "关闭" },
+						{ "key": "ERROR", "label": "❌ 错误" },
+						{ "key": "WARN", "label": "⚠️ 警告" },
+						{ "key": "INFO", "label": "ℹ️ 信息" },
+						{ "key": "DEBUG", "label": "🅱️ 调试" },
+						{ "key": "ALL", "label": "全部" }
+					],
+					"desc": "选择脚本日志的输出等级，低于所选等级的日志将全部输出。"
+				}
 			],
 			"author": "@DualSubs",
 			"repo": "https://github.com/DualSubs/YouTube/tree/dev",
