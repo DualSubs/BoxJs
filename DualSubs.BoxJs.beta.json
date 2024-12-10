@@ -346,7 +346,7 @@
 						{ "key": "DeepLX", "label": "DeepL X（需填写API）" }
 					]
 				},
-				{ "id": "@DualSubs.Translate.Settings.ShowOnly", "name": "只显示翻译后字幕", "val": false, "type": "boolean", "desc": "开启后仅显示翻译字幕，不做字幕合并操作" },
+				{ "id": "@DualSubs.Translate.Settings.ShowOnly", "name": "只显示翻译字幕", "type": "boolean", "val": false, "desc": "是否仅显示翻译后字幕，不显示源语言字幕。" },
 				{
 					"id": "@DualSubs.Translate.Settings.Position",
 					"name": "主语言（源语言）字幕位置",
