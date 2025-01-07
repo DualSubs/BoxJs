@@ -334,6 +334,7 @@
 					"type": "selects",
 					"desc": "请选择字幕翻译功能所使用的翻译API",
 					"items": [
+						{ "key": "AI", "label": "AI" },
 						{ "key": "Baidu", "label": "百度翻译" },
 						{ "key": "BaiduFanyi", "label": "百度 翻译开放平台（需填写API）" },
 						{ "key": "Youdao", "label": "有道翻译" },
@@ -470,6 +471,9 @@
 			"descs_html": ["请参照<a href=\"https://DualSubs.github.io\">DualSubs</a>的使用说明进行配置", "填写完成后别忘点击此页面底端右下角的\"保存\"。"],
 			"keys": ["@DualSubs.API.Settings"],
 			"settings": [
+				{ "id": "@DualSubs.API.Settings.AI.BaseURL", "name": "[AI] BaseURL", "val": "http://localhost:1234", "type": "text", "placeholder": "http://localhost:1234", "desc": "BaseURL" },
+				{ "id": "@DualSubs.API.Settings.AI.Model", "name": "[AI] 模型名称", "val": "meta-llama-3.1-8b-instruct@4bit", "type": "text", "placeholder": "meta-llama-3.1-8b-instruct@4bit", "desc": "模型名称" },
+				{ "id": "@DualSubs.API.Settings.AI.Prompt", "name": "[AI] 提示词", "val": "You are a translation engine\ntranslate directly without explanation and any explanatory content\nDo not translate newline character and line break separators", "type": "textarea", "placeholder": "You are a translation engine\ntranslate directly without explanation and any explanatory content\nDo not translate newline character and line break separators", "desc": "提示词" },
 				{ "id": "@DualSubs.API.Settings.NeteaseMusic.PhoneNumber", "name": "[网易云音乐] 手机号码", "val": "", "type": "text", "placeholder": "12312341234", "desc": "请填写您的网易云音乐账号手机号，未提供时不会启用功能" },
 				{ "id": "@DualSubs.API.Settings.NeteaseMusic.Password", "name": "[网易云音乐] 密码", "val": "", "type": "text", "placeholder": "12345678", "desc": "请填写您的网易云音乐账号密码，未提供时不会启用此功能" }
 			],
