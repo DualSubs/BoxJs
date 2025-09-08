@@ -38,7 +38,9 @@
 						{ "key": "DE", "label": "Deutsch - 德语" },
 						{ "key": "FR", "label": "Français - 法语" },
 						{ "key": "TR", "label": "Türkçe - 土耳其语" },
-						{ "key": "KM", "label": "ភាសាខ្មែរ - 高棉语" }
+						{ "key": "KM", "label": "ភាសាខ្មែរ - 高棉语" },
+						{ "key": "AR", "label": "العربية - 阿拉伯语" },
+						{ "key": "ID", "label": "Bahasa Indonesia - 印度尼西亚语" }
 					],
 					"desc": "当“主语言”字幕存在时，将生成“主语言/副语言（翻译）”与“主语言（外挂）”的字幕或字幕选项。"
 				},
@@ -59,7 +61,9 @@
 						{ "key": "DE", "label": "Deutsch - 德语" },
 						{ "key": "FR", "label": "Français - 法语" },
 						{ "key": "TR", "label": "Türkçe - 土耳其语" },
-						{ "key": "KM", "label": "ភាសាខ្មែរ - 高棉语" }
+						{ "key": "KM", "label": "ភាសាខ្មែរ - 高棉语" },
+						{ "key": "AR", "label": "العربية - 阿拉伯语" },
+						{ "key": "ID", "label": "Bahasa Indonesia - 印度尼西亚语" }
 					],
 					"desc": "当“副语言”字幕存在时，将生成“副语言/主语言（官方）”的字幕或字幕选项。"
 				},
